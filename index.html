@@ -2,10 +2,11 @@
 
 <html>
     <head>
+        <title> LIFE OF HAN </title>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Economica:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Economica:400,700|Roboto+Condensed" rel="stylesheet">
         
         <style>
             html {
@@ -39,6 +40,11 @@
                 text-decoration: none;
             }
             
+            a:hover {
+                color: #A94521;
+                font-weight: 500;
+            }
+            
             #logo {
                 font-size: 2.5em;
             }
@@ -62,8 +68,22 @@
             }
              
             h1 {
-                padding: 20px;
+                padding: 20px 20px 0 20px;
                 font-family: 'Economica', sans-serif;
+            }
+            
+            P {
+                padding: 0 20px 20px 20px;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+            
+            #section2 img {
+                max-width: 129px;
+                opacity: 1.0;
+            }
+            
+            #section2 img:hover {
+                opacity: 0.5;
             }
             
             #footer {
@@ -75,7 +95,7 @@
                 left: 0;
                 background-color: rgba(43, 57, 70, 0.4);
                 display: grid;
-                grid-template-columns: 45% 10% 45%;
+                grid-template-columns: 50% 50%;
                 color: #b7b3b2;
                 font-family: 'Economica', sans-serif;
                 font-weight: 500;
@@ -88,6 +108,12 @@
                 word-spacing: 10px;
             }
             
+            #copyright {
+                color: #A94521;
+                font-size: 0.5em;
+                vertical-align: super;
+            }
+            
         </style>
         
     </head>
@@ -96,9 +122,10 @@
         
         <div id="nav">
             <div id="logo">
-                THE STORY OF <span id="han">HAN</span>
+                LIFE OF <span id="han">HAN</span>
             </div>
             <div id="menu">
+                <a href="#">HOME</a>
                 <a href="#section1">SECTION1</a>
                 <a href="#section2">SECTION2</a>
                 <a href="#section3">SECTION3</a>
@@ -129,29 +156,42 @@
         -->
         <div id="section1" class="content">
             <h1 class="heading" >SECTION ONE</h1>
-            yLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis urna volutpat, dictum quam non, scelerisque velit. Duis tristique eros eget sem ullamcorper, vitae hendrerit ex dictum. Donec efficitur nisl ut venenatis euismod. Donec pellentesque, risus a auctor rhoncus, nunc dolor gravida nulla, consectetur elementum magna tellus eu felis. Pellentesque ac urna ultrices, vehicula sapien id, imperdiet ligula. Sed interdum magna commodo elementum vulputate. Nunc pellentesque pulvinar mauris id bibendum. Donec sit amet elit in dui interdum efficitur. Proin quis ipsum pretium massa mollis congue ac in odio. Proin malesuada quam tellus, quis maximus ex auctor vel.
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis urna volutpat, dictum quam non, scelerisque velit. Duis tristique eros eget sem ullamcorper, vitae hendrerit ex dictum. Donec efficitur nisl ut venenatis euismod. Donec pellentesque, risus a auctor rhoncus, nunc dolor gravida nulla, consectetur elementum magna tellus eu felis. Pellentesque ac urna ultrices, vehicula sapien id, imperdiet ligula. Sed interdum magna commodo elementum vulputate. Nunc pellentesque pulvinar mauris id bibendum. Donec sit amet elit in dui interdum efficitur. Proin quis ipsum pretium massa mollis congue ac in odio. Proin malesuada quam tellus, quis maximus ex auctor vel.
 
             Ut sit amet enim arcu. Phasellus facilisis neque tempus, dignissim nunc sed, semper velit. Mauris at turpis nec felis ornare aliquet at id ex. Vestibulum varius condimentum magna, quis hendrerit erat luctus ac. Vestibulum scelerisque turpis sed erat molestie varius. Fusce id ullamcorper elit. Etiam vel placerat massa, a sollicitudin ex. Nunc arcu tellus, lobortis a dictum in, feugiat eu enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
-            Etiam euismod dolor vel porttitor commodo. Nullam nec diam id ipsum pulvinar fringilla at sed urna. Proin a sollicitudin orci, at sollicitudin ex. Suspendisse dictum ipsum non dictum iaculis. In quis cursus tellus. Fusce egestas, sapien quis malesuada mollis, felis augue lacinia erat, id imperdiet eros ante et mauris. Quisque velit nisi, dictum et nisi eget, pulvinar accumsan nunc. Aliquam at tincidunt ipsum. In elementum volutpat ligula eu lacinia. Aliquam bibendum neque quis lorem auctor, iaculis condimentum mi mollis. Donec congue tincidunt leo nec fringilla. Vestibulum eu turpis id erat tempor ultrices. Sed suscipit, urna eu dictum fermentum, arcu turpis imperdiet neque, eu viverra elit risus et enim. Donec vel purus consequat, sollicitudin orci nec, iaculis dolor. In lacinia mattis hendrerit. Integer tincidunt semper ligula, tempus pellentesque odio facilisis quis.
+            Etiam euismod dolor vel porttitor commodo. Nullam nec diam id ipsum pulvinar fringilla at sed urna. Proin a sollicitudin orci, at sollicitudin ex. Suspendisse dictum ipsum non dictum iaculis. In quis cursus tellus. Fusce egestas, sapien quis malesuada mollis, felis augue lacinia erat, id imperdiet eros ante et mauris. Quisque velit nisi, dictum et nisi eget, pulvinar accumsan nunc. Aliquam at tincidunt ipsum. In elementum volutpat ligula eu lacinia. Aliquam bibendum neque quis lorem auctor, iaculis condimentum mi mollis. Donec congue tincidunt leo nec fringilla. Vestibulum eu turpis id erat tempor ultrices. Sed suscipit, urna eu dictum fermentum, arcu turpis imperdiet neque, eu viverra elit risus et enim. Donec vel purus consequat, sollicitudin orci nec, iaculis dolor. In lacinia mattis hendrerit. Integer tincidunt semper ligula, tempus pellentesque odio facilisis quis.</p>
         </div>
         
         <br>
         
         <div id="section2" class="content">
             <h1 class="heading" >SECTION TWO</h1>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis urna volutpat, dictum quam non, scelerisque velit. Duis tristique eros eget sem ullamcorper, vitae hendrerit ex dictum. Donec efficitur nisl ut venenatis euismod. Donec pellentesque, risus a auctor rhoncus, nunc dolor gravida nulla, consectetur elementum magna tellus eu felis. Pellentesque ac urna ultrices, vehicula sapien id, imperdiet ligula. Sed interdum magna commodo elementum vulputate. Nunc pellentesque pulvinar mauris id bibendum. Donec sit amet elit in dui interdum efficitur. Proin quis ipsum pretium massa mollis congue ac in odio. Proin malesuada quam tellus, quis maximus ex auctor vel.
-
-            Ut sit amet enim arcu. Phasellus facilisis neque tempus, dignissim nunc sed, semper velit. Mauris at turpis nec felis ornare aliquet at id ex. Vestibulum varius condimentum magna, quis hendrerit erat luctus ac. Vestibulum scelerisque turpis sed erat molestie varius. Fusce id ullamcorper elit. Etiam vel placerat massa, a sollicitudin ex. Nunc arcu tellus, lobortis a dictum in, feugiat eu enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-            Etiam euismod dolor vel porttitor commodo. Nullam nec diam id ipsum pulvinar fringilla at sed urna. Proin a sollicitudin orci, at sollicitudin ex. Suspendisse dictum ipsum non dictum iaculis. In quis cursus tellus. Fusce egestas, sapien quis malesuada mollis, felis augue lacinia erat, id imperdiet eros ante et mauris. Quisque velit nisi, dictum et nisi eget, pulvinar accumsan nunc. Aliquam at tincidunt ipsum. In elementum volutpat ligula eu lacinia. Aliquam bibendum neque quis lorem auctor, iaculis condimentum mi mollis. Donec congue tincidunt leo nec fringilla. Vestibulum eu turpis id erat tempor ultrices. Sed suscipit, urna eu dictum fermentum, arcu turpis imperdiet neque, eu viverra elit risus et enim. Donec vel purus consequat, sollicitudin orci nec, iaculis dolor. In lacinia mattis hendrerit. Integer tincidunt semper ligula, tempus pellentesque odio facilisis quis.
+        
+        <p>
+            Here are some funky pics <br><br>
+            <a data-fancybox="gallery" href="img.files/big_1.jpg">
+                <img src="img.files/small_1.jpg" /></a>
+        
+            <a data-fancybox="gallery" href="img.files/big_2.jpg">
+                <img src="img.files/small_2.jpg" /></a>
+        
+            <a data-fancybox="gallery" href="img.files/big_3.jpg">
+                <img src="img.files/small_3.jpg" /></a>
+        
+            <a data-fancybox="gallery" href="img.files/big_4.jpg">
+                <img src="img.files/small_4.jpg" /></a>
+        
+            <a data-fancybox="gallery" href="img.files/big_5.jpg">
+                <img src="img.files/small_5.jpg" /></a>
+        </p>
         </div>
         
         <br>
         
         <div id="section3" class="content">
             <h1 class="heading" >SECTION THREE</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis urna volutpat, dictum quam non, scelerisque velit. Duis tristique eros eget sem ullamcorper, vitae hendrerit ex dictum. Donec efficitur nisl ut venenatis euismod. Donec pellentesque, risus a auctor rhoncus, nunc dolor gravida nulla, consectetur elementum magna tellus eu felis. Pellentesque ac urna ultrices, vehicula sapien id, imperdiet ligula. Sed interdum magna commodo elementum vulputate. Nunc pellentesque pulvinar mauris id bibendum. Donec sit amet elit in dui interdum efficitur. Proin quis ipsum pretium massa mollis congue ac in odio. Proin malesuada quam tellus, quis maximus ex auctor vel.
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis urna volutpat, dictum quam non, scelerisque velit. Duis tristique eros eget sem ullamcorper, vitae hendrerit ex dictum. Donec efficitur nisl ut venenatis euismod. Donec pellentesque, risus a auctor rhoncus, nunc dolor gravida nulla, consectetur elementum magna tellus eu felis. Pellentesque ac urna ultrices, vehicula sapien id, imperdiet ligula. Sed interdum magna commodo elementum vulputate. Nunc pellentesque pulvinar mauris id bibendum. Donec sit amet elit in dui interdum efficitur. Proin quis ipsum pretium massa mollis congue ac in odio. Proin malesuada quam tellus, quis maximus ex auctor vel.
 
             Ut sit amet enim arcu. Phasellus facilisis neque tempus, dignissim nunc sed, semper velit. Mauris at turpis nec felis ornare aliquet at id ex. Vestibulum varius condimentum magna, quis hendrerit erat luctus ac. Vestibulum scelerisque turpis sed erat molestie varius. Fusce id ullamcorper elit. Etiam vel placerat massa, a sollicitudin ex. Nunc arcu tellus, lobortis a dictum in, feugiat eu enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
@@ -161,14 +201,13 @@
 
             Ut sit amet enim arcu. Phasellus facilisis neque tempus, dignissim nunc sed, semper velit. Mauris at turpis nec felis ornare aliquet at id ex. Vestibulum varius condimentum magna, quis hendrerit erat luctus ac. Vestibulum scelerisque turpis sed erat molestie varius. Fusce id ullamcorper elit. Etiam vel placerat massa, a sollicitudin ex. Nunc arcu tellus, lobortis a dictum in, feugiat eu enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
-            Etiam euismod dolor vel porttitor commodo. Nullam nec diam id ipsum pulvinar fringilla at sed urna. Proin a sollicitudin orci, at sollicitudin ex. Suspendisse dictum ipsum non dictum iaculis. In quis cursus tellus. Fusce egestas, sapien quis malesuada mollis, felis augue lacinia erat, id imperdiet eros ante et mauris. Quisque velit nisi, dictum et nisi eget, pulvinar accumsan nunc. Aliquam at tincidunt ipsum. In elementum volutpat ligula eu lacinia. Aliquam bibendum neque quis lorem auctor, iaculis condimentum mi mollis. Donec congue tincidunt leo nec fringilla. Vestibulum eu turpis id erat tempor ultrices. Sed suscipit, urna eu dictum fermentum, arcu turpis imperdiet neque, eu viverra elit risus et enim. Donec vel purus consequat, sollicitudin orci nec, iaculis dolor. In lacinia mattis hendrerit. Integer tincidunt semper ligula, tempus pellentesque odio facilisis quis.
+            Etiam euismod dolor vel porttitor commodo. Nullam nec diam id ipsum pulvinar fringilla at sed urna. Proin a sollicitudin orci, at sollicitudin ex. Suspendisse dictum ipsum non dictum iaculis. In quis cursus tellus. Fusce egestas, sapien quis malesuada mollis, felis augue lacinia erat, id imperdiet eros ante et mauris. Quisque velit nisi, dictum et nisi eget, pulvinar accumsan nunc. Aliquam at tincidunt ipsum. In elementum volutpat ligula eu lacinia. Aliquam bibendum neque quis lorem auctor, iaculis condimentum mi mollis. Donec congue tincidunt leo nec fringilla. Vestibulum eu turpis id erat tempor ultrices. Sed suscipit, urna eu dictum fermentum, arcu turpis imperdiet neque, eu viverra elit risus et enim. Donec vel purus consequat, sollicitudin orci nec, iaculis dolor. In lacinia mattis hendrerit. Integer tincidunt semper ligula, tempus pellentesque odio facilisis quis.</p>
         </div>
         
-        <br><br><br><br><br>
+        <br><br><br><br>
         <div id="footer">
-            <div/>
             <div id="logo">
-                <span id="han">HAN</span>
+                <span id="han">HAN<span id="copyright"><sup>&#169;</sup></span></span>
             </div>
             <div id="links">
                 <a href="http://google.com" target="_blank">link1</a>
